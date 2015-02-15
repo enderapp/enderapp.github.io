@@ -15,7 +15,8 @@
 		</script>
 	</head>
 	<body>
-		<div id="content">
-		</div>
+		<a onclick="VK.api('users.get', {}, function(data){
+			console.log(data);
+		});"
 	</body>
 </html>
