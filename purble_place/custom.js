@@ -89,8 +89,14 @@ $(function(){
 		}
 		
 		if(text!=''){
-			text = text.substr(0, (count-2));
-			add_console_text('Вы что-то угадали!', 'Вы угадали: '+text, 'green');
+			if(count==17){
+				VK.api('wall.post', {message: "Я выиграл в Purble Place! Сможешь ли так же? Присоединяйся к нам: https://vk.com/app3727575", attachments:'photo174641510_356590796,https://vk.com/app3727575'}, function(data){
+					location.reload();
+				});
+			}else{
+				text = text.substr(0, (count-2));
+				add_console_text('Вы что-то угадали!', 'Вы угадали: '+text, 'green');
+			}
 		}else{
 			add_console_text('Вы ничего не угадали :(', '', 'red');
 		}
