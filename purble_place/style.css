@@ -1,0 +1,212 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body {
+	background: #000;
+}
+a {
+	cursor: pointer;
+}
+hr {
+	margin: 12px 0;
+}
+.cache {
+	position: fixed;
+	top: -99999px;
+	left: -9999px;
+}
+.background {
+	background: #456ec2 url('background_2.jpeg') no-repeat;
+	width: 864px;
+	height: 500px;
+	background-size: 100% 100%;
+}
+.sideboard .line {
+	width: 247px;
+	height: 50px;
+	position: relative;
+	float: right;
+	clear: both;
+	right: 126px;
+}
+.sideboard .line-1 {
+	top: 92px;
+}
+.sideboard .line-2 {
+	top: 129px;
+}
+.sideboard .line-3 {
+	top: 174px;
+}
+.sideboard .mouth {
+	display: block;
+	position: relative;
+	float: left;
+	width: 70px;
+	height: 50px;
+	margin: 0 5px;
+}
+.sideboard .mouth:hover {
+	background-size: 100% 100%;
+}
+.sideboard .mouth-1 {
+	background: url('mouth-1.png') no-repeat;
+	background-size: 95% 95%;
+}
+.sideboard .mouth-2 {
+	background: url('mouth-2.png') no-repeat;
+	background-size: 95% 95%;
+}
+.sideboard .mouth-3 {
+	background: url('mouth-3.png') no-repeat;
+	background-size: 95% 95%;
+}
+.sideboard .nose {
+	display: block;
+	position: relative;
+	float: left;
+	width: 70px;
+	height: 50px;
+	margin: 0 3px;
+}
+.sideboard .nose:hover {
+	background-size: 100% 100%;
+}
+.sideboard .nose-1 {
+	background: url('nose-1.png') no-repeat;
+	background-size: 95% 95%;
+}
+.sideboard .nose-2 {
+	background: url('nose-2.png') no-repeat;
+	background-size: 95% 95%;
+}
+.sideboard .nose-3 {
+	background: url('nose-3.png') no-repeat;
+	background-size: 95% 95%;
+}
+.sideboard .eye {
+	display: block;
+	position: relative;
+	float: left;
+	width: 70px;
+	height: 50px;
+	margin: 0 3px;
+}
+.sideboard .eye:hover {
+	background-size: 100% 100%;
+}
+.sideboard .eye-1 {
+	background: url('eye-1.png') no-repeat;
+	background-size: 95% 95%;
+}
+.sideboard .eye-2 {
+	background: url('eye-2.png') no-repeat;
+	background-size: 95% 95%;
+}
+.sideboard .eye-3 {
+	background: url('eye-3.png') no-repeat;
+	background-size: 95% 95%;
+}
+.body {
+	position: absolute;
+	top: 197px;
+	left: 139px;
+	width: 125px;
+	height: 79px;
+}
+.body .eye {
+	width: 142px;
+	height: 73px;
+}
+.body .nose {
+	position: relative;
+	top: -52px;
+	left: 36px;
+	width: 70px;
+	height: 50px;
+}
+.body .mouth {
+	position: relative;
+	top: -77px;
+	left: 37px;
+	width: 70px;
+	height: 50px;
+}
+.div_ok {
+	position: absolute;
+	top: 280px;
+	left: 299px;
+	width: 100px;
+	height: 100px;
+}
+.div_ok a {
+	width: 100px;
+	height: 100px;
+	background: url('ok.png');
+	display: block;
+}
+.div_ok a:hover {
+	background: url('ok_hover.png') !important;
+}
+.undefined {
+	position: absolute;
+	top: 78px;
+	left: 81px;
+	width: 120px;
+	height: 109px;
+}
+.undefined .lampa {
+	width: 134px;
+	height: 30px;
+	background: url('lampa.png') no-repeat;
+	background-size: 100% auto;
+	position: relative;
+	top: -11px;
+	left: -7px;
+	z-index: 10;
+}
+.undefined .shtora-1 {
+	position: absolute;
+	float: left;
+	top: 0px;
+	left: -1px;
+	background: url('shtora-1.png') no-repeat;
+	background-size: 100% 100%;
+	width: 22px;
+	height: 107px;
+}
+.undefined .shtora-2 {
+	position: relative;
+	float: right;
+	top: -28px;
+	right: 1px;
+	background: url('shtora-2.png') no-repeat;
+	background-size: 100% 100%;
+	width: 18px;
+	height: 107px;
+}
+.board {
+	position: absolute;
+	top: 93px;
+	left: 265px;
+	width: 154px;
+	height: 77px;
+	color: #F74E00;
+	font-family: cursive;
+}
+.info_panel {
+	position: absolute;
+	top: 389px;
+	border-radius: 5px;
+	left: 43px;
+	width: 707px;
+	height: 78px;
+	padding: 7px 20px;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 14px #000;
+	font-family: Calibri;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
